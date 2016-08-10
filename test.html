@@ -1,16 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="my name is fred">
 	<title></title>
+
+<style>
+	.center{
+		text-align: center;
+	}
+
+	h2{
+		color: red;
+		padding: 10px; /* equals 10px 10px 10px 10px */
+		border: 10px solid black;
+	}
+
+	.html-header{
+		color: green;
+		font-size: 20px;
+	}
+
+	p{
+		color: blue !important;
+	}
+</style>
+
 </head>
 <body>
 <!-- Hey. This is my comment. -->
 
 	<h2>Hello World</h2>
 
-	<p>HTML 101</p>
+	<p class="html-header">HTML 101</p>
 
-	<p>This is a PARAGRAPH!</p>
+	<p id="paragraph">This is a PARAGRAPH!</p>
 
 	<ul>
 		<li>Structural Tags</li>
@@ -25,12 +48,40 @@
 
 	<table border="1">
 		<tr>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
+			<td>
+				<a href="http://www.reverb.com">1</a>
+			</td>
+			<td>
+				<a href="#bottom">Bottom</a>
+			</td>
+			<td>
+				<img src="https://reverb-res.cloudinary.com/image/upload/s--ZF6HBtRJ--/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_226,q_auto:eco,w_226/v1468090634/dseivnza2pt1tnzllpkr.jpg" alt="stuff">
+			</td>
+		</tr>
+		<tr>
+			<td>4. <span style="color: blue"> <!-- You can put the style attribute anywhere, but it's bad form! -->
+				This is a span</span></td>
+			<td>5</td>
+			<td>6</td>
 		</tr>
 	</table>
 
+
+
+<script type="text/javascript">
+	
+</script>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h2 id="bottom"> I am at the bottom.</h2>
 
 </body>
 </html>
